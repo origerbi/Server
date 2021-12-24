@@ -1,4 +1,4 @@
 FROM python:3.9
-COPY . /app
-WORKDIR /app
-CMD python testMain.py
+COPY . /logic
+WORKDIR /logic
+CMD ["python", "testMain.py"]
